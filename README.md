@@ -64,6 +64,8 @@ py convert_fps.py -dir "E:\Footage\25fps" -fps 25 29.97 -rename "new_*" -model r
 ### Build image (NVIDIA)
 ```
 docker build -f Dockerfile . -t fixdropframes
+# Or pull (faster), on the commands below use ghcr.io/adriabama06/rife-fixdropframes-and-convertfps-docker:docker instance of fixdropframes
+docker pull ghcr.io/adriabama06/rife-fixdropframes-and-convertfps-docker:docker
 ```
 ### Build image (CPU)
 ```
